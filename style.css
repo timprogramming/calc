@@ -16,7 +16,6 @@ body {
     grid-template-columns: repeat(4, 1fr);
     width: 10px;
     margin: 10px 0 0 27px;
-    border: 2px groove black;
     gap: 5px;
 }
 #display {
@@ -24,7 +23,10 @@ body {
     height: 50px;
     background-color: hsl(100, 80%, 50%);
     margin: 20px 0 0 27px;
+    border: 2px groove black;
     color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
 button {
     width: 73px;
