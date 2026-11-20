@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-size: 24px;
 }
 #calculator {
     width: 360px;
@@ -10,8 +11,6 @@ body {
     justify-content: center;
     margin: 0 auto;
     border-radius: 10px;
-    font-size: 24px;
-    font-weight: bold;
 }
 #keys {
     display: grid;
@@ -27,7 +26,7 @@ body {
     margin: 20px 0 0 27px;
     border: 2px groove black;
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
 }
 button {
@@ -42,6 +41,9 @@ button {
     font-size: 24px;
     cursor: pointer;
     margin: 0;
+}
+#display::placeholder {
+    color: white;
 }
 #calculator, #keys, button {
     border: none;
